@@ -123,7 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &55128322
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,8 +393,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246438415}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
 --- !u!1 &270368624
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +461,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &483125173
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,8 +868,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545299405}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
 --- !u!1 &584666015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,14 +1106,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661082444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.72}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.9512, y: 1, z: 2.0171}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &702937042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,8 +1248,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702937042}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,11 +1342,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< HEAD
 --- !u!1 &761085225
-=======
---- !u!1 &758795981
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1363,15 +1350,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 761085226}
   - component: {fileID: 761085228}
   - component: {fileID: 761085227}
-=======
-  - component: {fileID: 758795982}
-  - component: {fileID: 758795984}
-  - component: {fileID: 758795983}
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1517,8 +1498,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1539466727}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1889,11 +1869,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1155923694
-=======
---- !u!1 &1539466726
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1901,35 +1877,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 1155923695}
   - component: {fileID: 1155923697}
   - component: {fileID: 1155923696}
   m_Layer: 5
   m_Name: Text (TMP)
-=======
-  - component: {fileID: 1539466727}
-  - component: {fileID: 1539466729}
-  m_Layer: 0
-  m_Name: GameObject
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!224 &1155923695
 RectTransform:
-=======
---- !u!4 &1539466727
-Transform:
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1155923694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2470,14 +2433,10 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880405780}
-=======
-  m_GameObject: {fileID: 1539466726}
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-<<<<<<< HEAD
   m_Children:
   - {fileID: 246438416}
   m_Father: {fileID: 2121543461}
@@ -3067,19 +3026,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!1 &2112729814
 GameObject:
-=======
-  m_Children: []
-  m_Father: {fileID: 963194228}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1539466729
-AudioSource:
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2112729815}
@@ -3436,15 +3386,6 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: a55e3f85909c2934ea194ef40d57a477, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
-=======
-  m_GameObject: {fileID: 1539466726}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 843e52fd39890864fb9f3a51622c876e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3528,7 +3469,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD
 --- !u!1 &2144635648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,5 +3522,3 @@ MonoBehaviour:
   timer: 60
   timerText: {fileID: 1416127795}
   gameOverScreen: {fileID: 513223407}
-=======
->>>>>>> parent of 9384f5f (Merge branch 'Janelle's-branch')
