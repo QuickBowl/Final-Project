@@ -19,6 +19,7 @@ public class GameOverScreen : MonoBehaviour {
 
     public void Restart() {
         SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1f;
     }
     public void Exit() {
         Application.Quit();

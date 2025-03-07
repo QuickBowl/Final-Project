@@ -16,6 +16,7 @@ public class WinGame : MonoBehaviour {
     }
     public void Restart() {
         SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1f;
     }
     public void ExitGame() {
         Application.Quit();
