@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinishLine : MonoBehaviour {
+public class LoseTrigger : MonoBehaviour {
     public GameObject player;
-    public GameObject YouWin;
+    public GameObject gameOver;
     public AudioSource music;
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject == player) {
-
-            YouWin.SetActive(YouWin);
+            gameOver.SetActive(gameOver);
             Time.timeScale = 0f;
             music.Stop();
-
         }
+        
     }
+
 }

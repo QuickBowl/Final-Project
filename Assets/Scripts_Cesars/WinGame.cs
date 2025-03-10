@@ -12,7 +12,7 @@ public class WinGame : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        // Implement Win condition, like once player makes it into one place/grabs somthing, win screen pops up
+
     }
     public void Restart() {
         SceneManager.LoadScene("SampleScene");
