@@ -24,7 +24,8 @@ public class CharMovement : MonoBehaviour
 
         Vector3 mover = new Vector3(deltaX, 0, deltaZ);
         mover = Vector3.ClampMagnitude(mover, speed);
-        mover.y = gravity;
+        airSpeed += gravity * Time.deltaTime;
+        mover.y = airSpeed;
         mover *= Time.deltaTime;
         mover = transform.TransformDirection(mover);
 

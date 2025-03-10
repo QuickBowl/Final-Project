@@ -8,24 +8,24 @@ public class GameScore : MonoBehaviour {
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TMP_Text finalScoreText;
     [SerializeField] private GameTimer timeLeft;
-    //[SerializeField] private coinPoints;
-    //[SerializeField] private enemyPoints;
     private int score;
     private int finalScore;
+    private int coinPoints;
 
     public void Start() {
         score = 0;
+        coinPoints = 0;
+        UpdateScore();
+    }
+    public void hudScore(int amount) {
+        score += amount;
+        coinPoints += amount;
         UpdateScore();
     }
 
     public void ScoreKeeper() {
-        // this is where the amount of coins and time will multiply
         float time = timeLeft.timer;
-        finalScore = (int)time;
-    }
-    public void hudScore() {
-        //score = coinPoints + enemyPoints;
-        //UpdateScore();
+        finalScore = (int)time * coinPoints;
     }
 
     public void WinScore() {
