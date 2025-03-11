@@ -4149,7 +4149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 2031447627}
   cameraController: {fileID: 963194229}
-  player: {fileID: 1052490812}
 --- !u!114 &584666021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13789,7 +13788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b59c7271f5ae94594db9de7c102b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 5
+  timer: 60
   timerText: {fileID: 1416127795}
   music: {fileID: 540729147}
   gameOverScreen: {fileID: 513223407}
