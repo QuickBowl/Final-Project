@@ -13,7 +13,8 @@ public class FinishLine : MonoBehaviour {
             YouWin.SetActive(YouWin);
             Time.timeScale = 0f;
             music.Stop();
-
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 }
