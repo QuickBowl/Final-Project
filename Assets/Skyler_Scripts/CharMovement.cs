@@ -14,6 +14,8 @@ public class CharMovement : MonoBehaviour
     void Start()
     {
         control = GetComponent<CharacterController>();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -30,10 +32,11 @@ public class CharMovement : MonoBehaviour
         mover = transform.TransformDirection(mover);
 
         control.Move(mover);
-        
-        if (Input.GetButtonDown("Jump"))
-        {
-            airSpeed = jumpHeight;
+
+        if (control.isGrounded) {
+            if (Input.GetButtonDown("Jump")) {
+                airSpeed = jumpHeight;
+            }
         }
 
     }

@@ -27,8 +27,7 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
-    void RemoveEnemy(GameObject enemy)
-    {
+    void RemoveEnemy(GameObject enemy) {
         activeEnemies.Remove(enemy);
         Debug.Log("Enemy Defeated!");
 

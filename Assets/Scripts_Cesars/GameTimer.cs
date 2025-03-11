@@ -21,6 +21,8 @@ public class GameTimer : MonoBehaviour {
             if (!gameOverScreen.activeSelf) {
                 gameOverScreen.SetActive(true);
                 music.Stop();
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
         }
     }

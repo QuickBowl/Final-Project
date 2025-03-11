@@ -12,7 +12,12 @@ public class LoseTrigger : MonoBehaviour {
             gameOver.SetActive(gameOver);
             Time.timeScale = 0f;
             music.Stop();
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
+        if(other.CompareTag("Enemy")) {
+            Destroy(other.gameObject);
+        } 
         
     }
 
