@@ -3238,6 +3238,7 @@ MonoBehaviour:
   moveSpeed: 3
   detectionRadius: 10
   enemyPoints: 50
+  slimeDies: {fileID: 8300000, guid: 7bb503f3bcf10994184fe4975eefc638, type: 3}
 --- !u!54 &530732489
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4411,6 +4412,7 @@ MonoBehaviour:
   moveSpeed: 3
   detectionRadius: 10
   enemyPoints: 50
+  slimeDies: {fileID: 8300000, guid: 7bb503f3bcf10994184fe4975eefc638, type: 3}
 --- !u!54 &669269193
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6385,6 +6387,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6475,6 +6478,21 @@ MonoBehaviour:
   ySens: 13
   minimumVert: -45
   maximumVert: 45
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55feb780bf77055439c6efb32213a648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpeed: 10
+  power: 5
+  BulletPrefab: {fileID: 1999541212777188196, guid: 55abcdaaac587ff43ab2771163925fa8, type: 3}
 --- !u!1 &965964644
 GameObject:
   m_ObjectHideFlags: 0
@@ -7283,7 +7301,6 @@ GameObject:
   - component: {fileID: 1052490806}
   - component: {fileID: 1052490812}
   - component: {fileID: 1052490811}
-  - component: {fileID: 1052490810}
   - component: {fileID: 1052490813}
   - component: {fileID: 1052490814}
   m_Layer: 0
@@ -7373,18 +7390,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1052490810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052490805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22a67c9aa03398540af7ebfe765c3c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1052490811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7400,6 +7405,7 @@ MonoBehaviour:
   speed: 7
   jumpHeight: 5
   gravity: -9.8
+  jumpSound: {fileID: 8300000, guid: 82ad1bcfd303107408172e21dfccb2c5, type: 3}
 --- !u!143 &1052490812
 CharacterController:
   m_ObjectHideFlags: 0
@@ -9364,6 +9370,7 @@ MonoBehaviour:
   moveSpeed: 3
   detectionRadius: 10
   enemyPoints: 50
+  slimeDies: {fileID: 8300000, guid: 7bb503f3bcf10994184fe4975eefc638, type: 3}
 --- !u!135 &1348203668
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10729,6 +10736,7 @@ MonoBehaviour:
   moveSpeed: 3
   detectionRadius: 10
   enemyPoints: 50
+  slimeDies: {fileID: 8300000, guid: 7bb503f3bcf10994184fe4975eefc638, type: 3}
 --- !u!135 &1656446225
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12682,6 +12690,7 @@ MonoBehaviour:
   moveSpeed: 3
   detectionRadius: 10
   enemyPoints: 50
+  slimeDies: {fileID: 8300000, guid: 7bb503f3bcf10994184fe4975eefc638, type: 3}
 --- !u!54 &2056778943
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13891,7 +13900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b59c7271f5ae94594db9de7c102b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 120
+  timer: 60
   timerText: {fileID: 1416127795}
   music: {fileID: 540729147}
   gameOverScreen: {fileID: 513223407}
