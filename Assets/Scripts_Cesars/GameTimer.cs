@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using TMPro;
 using UnityEngine;
 
@@ -7,6 +8,12 @@ public class GameTimer : MonoBehaviour {
     public float timer = 60f;
     public TMP_Text timerText;
     public GameObject gameOverScreen;
+    
+    public void GetCurrentTime()
+    {
+        var time = timer;
+    }
+    
 
     // Update is called once per frame
     void Update() {
