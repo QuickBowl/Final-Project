@@ -28,7 +28,7 @@ public class GameScore : MonoBehaviour {
 
     public void ScoreKeeper() {
         float time = timeLeft.timer;
-        finalScore = (int)time * (coinPoints + enemyPoints);
+        finalScore = ((int)time * (coinPoints + enemyPoints)) / 2;
     }
 
     public void WinScore() {
