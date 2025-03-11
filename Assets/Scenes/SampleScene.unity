@@ -13900,7 +13900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b59c7271f5ae94594db9de7c102b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 60
+  timer: 80
   timerText: {fileID: 1416127795}
   music: {fileID: 540729147}
   gameOverScreen: {fileID: 513223407}

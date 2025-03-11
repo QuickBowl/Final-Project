@@ -19,8 +19,16 @@ public class RayShot : MonoBehaviour
         //Cursor.lockState = CursorLockMode.Locked;
         //Cursor.visible = false;
     }
+    private void OnGUI() {
+        int size = 36;
+        float posX = cam.pixelWidth / 2 - size / 4;
+        float posY = cam.pixelHeight / 2 - size / 2;
 
-    
+        GUI.Label(new Rect(posX, posY, size, size), "+");
+    }
+
+
+
     void Update()
     {
 

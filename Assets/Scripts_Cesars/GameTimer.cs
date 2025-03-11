@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 
 public class GameTimer : MonoBehaviour {
-    public float timer = 60f;
+    public float timer = 80f;
     public TMP_Text timerText;
     public AudioSource music;
     public GameObject gameOverScreen;
