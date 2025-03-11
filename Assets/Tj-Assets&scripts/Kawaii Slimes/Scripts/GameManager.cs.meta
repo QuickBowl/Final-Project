@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 885a1ff9f735e1b4a997a5ba62dfb878
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainSlime: {fileID: 3198502390492704377, guid: 0ba0f6eee23032e4e83d421e739dc905, type: 3}
+  - idleBut: {instanceID: 0}
+  - walkBut: {instanceID: 0}
+  - jumpBut: {instanceID: 0}
+  - attackBut: {instanceID: 0}
+  - damageBut0: {instanceID: 0}
+  - damageBut1: {instanceID: 0}
+  - damageBut2: {instanceID: 0}
+  - cam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
