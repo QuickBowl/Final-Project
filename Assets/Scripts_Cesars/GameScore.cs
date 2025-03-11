@@ -11,21 +11,24 @@ public class GameScore : MonoBehaviour {
     private int score;
     private int finalScore;
     private int coinPoints;
+    private int enemyPoints;
 
     public void Start() {
         score = 0;
         coinPoints = 0;
+        enemyPoints = 0;
         UpdateScore();
     }
     public void hudScore(int amount) {
         score += amount;
         coinPoints += amount;
+        enemyPoints += amount;
         UpdateScore();
     }
 
     public void ScoreKeeper() {
         float time = timeLeft.timer;
-        finalScore = (int)time * coinPoints;
+        finalScore = (int)time * (coinPoints + enemyPoints);
     }
 
     public void WinScore() {

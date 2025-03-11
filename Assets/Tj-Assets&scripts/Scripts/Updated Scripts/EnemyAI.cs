@@ -5,18 +5,19 @@ using System; // Required for event handling
 
 public class EnemyAI : MonoBehaviour
 {
-    public static event Action<GameObject> OnEnemyKilled; // Event to notify when an enemy dies
-
+    public static event System.Action<GameObject> OnEnemyKilled; // Event to notify when an enemy dies
     public Transform player;
-    //private UnityEngine.AI.NavMeshAgent agent;
     public int health = 3;
-    private Rigidbody rb;
+    private Rigidbody rigidBody;
     public float moveSpeed = 3.0f;
     public float detectionRadius = 10.0f;
+    [SerializeField] private int enemyPoints = 50;
+    private GameScore gameScore;
 
     void Start() {
         player = GameObject.FindWithTag("Player")?.transform;
-        rb = GetComponent<Rigidbody>();
+        rigidBody = GetComponent<Rigidbody>();
+        gameScore = FindObjectOfType<GameScore>();
 
     }
 
@@ -24,15 +25,21 @@ public class EnemyAI : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
         if (distanceToPlayer <= detectionRadius) {
             Vector3 direction = (player.position - transform.position).normalized;
-            rb.MovePosition(rb.position + direction * moveSpeed * Time.deltaTime);
+            rigidBody.MovePosition(rigidBody.position + direction * moveSpeed * Time.deltaTime);
         }
     }
 
     public void TakeDamage(int damage) {
-        health -= damage;
-        if (health <= 0) {
-            OnEnemyKilled?.Invoke(gameObject); // Notify EnemyManager if subscribed
-            Destroy(gameObject);
-        }
+      //  health -= damage;
+        //if (health <= 0) {
+          //  gameScore.hudScore(enemyPoints);
+            //OnEnemyKilled?.Invoke(gameObject); // Notify EnemyManager if subscribed
+            //Destroy(gameObject);
+        //}
+    }
+    public void KillEnemy() {
+        OnEnemyKilled?.Invoke(gameObject);
+        gameScore.hudScore(enemyPoints);
+        Destroy(gameObject);
     }
 }

@@ -16,9 +16,10 @@ public class LoseTrigger : MonoBehaviour {
             Cursor.visible = true;
         }
         if(other.CompareTag("Enemy")) {
-            Destroy(other.gameObject);
-        } 
-        
+            EnemyAI enemyAI = other.GetComponent<EnemyAI>();
+            if (enemyAI != null) {
+                enemyAI.KillEnemy();
+            }
+        }    
     }
-
 }
