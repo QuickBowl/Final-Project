@@ -3,10 +3,15 @@ Our game is a first-person shooting platformer. Which includes coins to collect,
 **Unity Version: 2021.3.11f1**
 
 Cesar De La Herran - UI, Score Counter, Timer, Textures
+
 Janelle Ellis - Map Design, Coin
+
 Skyler Garduno - Player Character and RayShot
+
 Theophilus Ben-Acquaah - Enemies
+
 Diego Montes-Guzman - Sound effects and Music
+
 Jacob Yepes - Speed Power Up
 
 **Third-Party Assests/Music and Sound Effects:**
