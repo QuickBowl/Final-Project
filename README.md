@@ -1,4 +1,4 @@
-Our game is a first person shooting platformer. Which includes a coins to collect, enemies to shoot, and a speed power up to use. The goal is the game is to make it to the finish line before the time runs out. Be careful of to not fall off the map, you'll lose as well.
+Our game is a first-person shooting platformer. Which includes coins to collect, enemies to shoot, and a speed power-up to use. The goal is the game is to make it to the finish line before the time runs out. Be careful not to fall off the map, you'll lose as well.
 
 **Unity Version: 2021.3.11f1**
 
