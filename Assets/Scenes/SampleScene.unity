@@ -6580,6 +6580,7 @@ MonoBehaviour:
   bulletSpeed: 10
   power: 5
   BulletPrefab: {fileID: 1999541212777188196, guid: 55abcdaaac587ff43ab2771163925fa8, type: 3}
+  raySound: {fileID: 8300000, guid: fb306f9242fd6054da4de42f9b0bf19c, type: 3}
 --- !u!1 &965964644
 GameObject:
   m_ObjectHideFlags: 0

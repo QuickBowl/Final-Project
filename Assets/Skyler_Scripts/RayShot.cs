@@ -10,6 +10,7 @@ public class RayShot : MonoBehaviour
     [SerializeField] GameObject BulletPrefab;
     private GameObject Bullet;
     private Camera cam;
+    [SerializeField] private AudioClip raySound;
 
 
     void Start()
@@ -37,9 +38,10 @@ public class RayShot : MonoBehaviour
             Vector3 point = new Vector3 (cam.pixelWidth/2, cam.pixelHeight/2, 0);
             Ray ray = cam.ScreenPointToRay (point);
             RaycastHit shot;
-            
+            AudioSource.PlayClipAtPoint(raySound, transform.position);
 
-            if(Physics.Raycast(ray, out shot))
+
+            if (Physics.Raycast(ray, out shot))
             {
                 //StartCoroutine(fireShot(shot.point));
                 GameObject hitConfirm = shot.transform.gameObject;
