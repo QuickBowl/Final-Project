@@ -2,7 +2,7 @@ Our game is a first-person shooting platformer. Which includes coins to collect,
 
 **Unity Version: 2021.3.11f1**
 
-Cesar De La Herran - UI, Score Counter, Timer, Textures
+Cesar De La Herran - UI (Win Screen, Game Over Screen, Pause Screen, Main Menu), Score Counter, Timer, Textures
 
 Janelle Ellis - Map Design, Coin
 
