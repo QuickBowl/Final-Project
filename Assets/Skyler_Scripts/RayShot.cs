@@ -46,10 +46,14 @@ public class RayShot : MonoBehaviour
                 //StartCoroutine(fireShot(shot.point));
                 GameObject hitConfirm = shot.transform.gameObject;
                 EnemyAI target = hitConfirm.GetComponent<EnemyAI>();
+                TurretScript_1 turret = hitConfirm.GetComponent<TurretScript_1>();
 
                 if (target != null)
                 {
                     target.TakeDamage(power);
+                }
+                else if (turret != null) {
+                    turret.TakeDamage(power);
                 }
                 else
                 {
