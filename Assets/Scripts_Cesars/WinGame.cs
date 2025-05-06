@@ -14,8 +14,14 @@ public class WinGame : MonoBehaviour {
     void Update() {
 
     }
+
+    public void NextLevel() {
+        SceneManager.LoadScene("Level2");
+        Time.timeScale = 1.0f;
+    }
     public void Restart() {
-        SceneManager.LoadScene("SampleScene");
+        string currentLevel = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentLevel);
         Time.timeScale = 1f;
     }
     public void ExitGame() {

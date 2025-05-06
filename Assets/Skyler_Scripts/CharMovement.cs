@@ -10,6 +10,7 @@ public class CharMovement : MonoBehaviour
     [SerializeField] private AudioClip jumpSound;
     private CharacterController control;
     private float airSpeed;
+    private bool sprint;
 
     void Start()
     {
@@ -21,10 +22,34 @@ public class CharMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //if (!sprint && Input.GetButtonUp("Sprint"))
+        //{
+        //    sprint = true;
+        //}
+        //else if(sprint && Input.GetButtonUp("Sprint"))
+        //{
+        //    sprint = false;
+        //}
+
+        //if (sprint)
+        //{
+        //    speed = 14.0f;
+        //}
+
+        if (Input.GetButtonDown("Sprint"))
+        {
+            speed = 14.0f;
+        }
+        else if (Input.GetButtonUp("Sprint"))
+        {
+            speed = 7.0f;
+        }
+
         float deltaX = Input.GetAxis("Horizontal") * speed;
         float deltaZ = Input.GetAxis("Vertical") * speed;
-
         Vector3 mover = new Vector3(deltaX, 0, deltaZ);
+
+        
         mover = Vector3.ClampMagnitude(mover, speed);
         airSpeed += gravity * Time.deltaTime;
         mover.y = airSpeed;

@@ -18,7 +18,8 @@ public class GameOverScreen : MonoBehaviour {
     }
 
     public void Restart() {
-        SceneManager.LoadScene("SampleScene");
+        string currentLevel = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentLevel);
         Time.timeScale = 1f;
     }
     public void Exit() {
