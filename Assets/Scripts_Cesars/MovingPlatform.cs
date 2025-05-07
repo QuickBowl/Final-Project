@@ -21,7 +21,7 @@ public class MovingPlatform : MonoBehaviour {
 
     void PlatformMoves() {
         Transform target = points[current];
-        platform.transform.position = Vector3.MoveTowards(platform.transform.position, target.position, speed * Time.deltaTime);
+        platform.transform.position = Vector3.MoveTowards(platform.transform.position, target.position, speed * Time.unscaledDeltaTime);
 
         if (Vector3.Distance(platform.transform.position, target.position) < 0.01f) {
             ++current;
