@@ -289,6 +289,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 287273257}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 1587687613}
@@ -1283,6 +1287,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 287273257}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 
@@ -5273,6 +5281,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 287273257}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 1587687613}
@@ -6097,6 +6109,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 287273257}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 
@@ -7252,6 +7268,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 287273257}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 1587687613}
@@ -7935,6 +7955,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 287273257}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 
       objectReference: {fileID: 1587687613}
@@ -8405,6 +8429,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 287273257}
+    - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
+      propertyPath: cannonShot
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a6aa6a5c9fe3ce4ab360be8ce26961c, type: 3}
     - target: {fileID: -7173287340759948522, guid: 60d1fd3124e70c64c93f38e6a6d3d515, type: 3}
       propertyPath: gameOverUI
       value: 

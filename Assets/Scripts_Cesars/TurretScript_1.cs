@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurretScript_1 : MonoBehaviour {
 
-    [SerializeField] private AudioClip turretDies;
+    [SerializeField] private AudioClip cannonShot;
     [SerializeField] GameObject cannonballPrefab;
     [SerializeField] private int enemyPoints = 100;
     public Transform player;
@@ -51,6 +51,7 @@ public class TurretScript_1 : MonoBehaviour {
                 cannonBall = Instantiate(cannonballPrefab) as GameObject;
                 cannonBall.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);
                 cannonBall.transform.rotation = transform.rotation;
+                AudioSource.PlayClipAtPoint(cannonShot, transform.position);
                 CannonBallBehavior behavior = cannonBall.GetComponent<CannonBallBehavior>();
                 if (behavior != null) {
                     behavior.gameOver = gameOverUI;
