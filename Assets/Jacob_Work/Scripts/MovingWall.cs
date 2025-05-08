@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class MovingWall : MonoBehaviour
 {
     [SerializeField]
     private WaypointPath _waypointPath;
