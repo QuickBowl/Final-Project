@@ -9,7 +9,7 @@ public class TimeBuff : PowerupEffect
     public float amount;
     public override void Apply(GameObject target)
     {
-        target.GetComponent<GameTimer>().timer += amount;
+        target.GetComponent<GameTimer>().timer += amount; 
     }
 
 
