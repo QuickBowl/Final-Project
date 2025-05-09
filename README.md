@@ -1,18 +1,20 @@
-Our game is a first-person shooting platformer. Which includes coins to collect, enemies to shoot, and a speed power-up to use. The goal is the game is to make it to the finish line before the time runs out. Be careful not to fall off the map, you'll lose as well.
+Our game is a first person shooting platformer. Which includes a coins to collect, enemies to shoot, and a speed power up. The goal is the game is to make it to the finish line before the time runs out and to not fall off the map.
+
+New Additions for Final: We added a second level with a whole new vertical design, Character sprinting, moving platforms, turrets, a new slow-mo power-up, Moving Walls as Obstacles, and a new Camera Zoom feature.
 
 **Unity Version: 2021.3.11f1**
 
-Cesar De La Herran - UI (Win Screen, Game Over Screen, Pause Screen, Main Menu), Score Counter, Timer, Textures
+Cesar De La Herran - UI, Score Counter, Timer, Textures, Turret Prefab, Turret Script, Level 2 Map Design, Moving Platforms
 
-Janelle Ellis - Map Design, Coin
+Janelle Ellis - Map Design, Coin Prefab, Slow-Mo Power-Up
 
-Skyler Garduno - Player Character and RayShot
+Skyler Garduno - Player Character, RayShot, Sprint Addition to Player
 
-Theophilus Ben-Acquaah - Enemies
+Theophilus Ben-Acquaah - Enemies and Turret Script assistance
 
 Diego Montes-Guzman - Sound effects and Music
 
-Jacob Yepes - Speed Power Up
+Jacob Yepes - Speed Power Up Prefab, Level 2 Design concept, Moving Walls, and Camera Zoom Script
 
 **Third-Party Assests/Music and Sound Effects:**
 
@@ -37,3 +39,5 @@ Splat by SonixFXSounds (https://pixabay.com/sound-effects/splat-305791/ )
 power_up_grab by mazl1985 (Freesound) (https://pixabay.com/sound-effects/power-up-grab-88510/ )
 
 PipLaser.wav by wcoltd (https://freesound.org/people/wcoltd/sounds/440779/ )
+
+cannon ball.mp3 (https://drive.google.com/file/d/19CRdWBNvVI-5XbE6oIY7DdYpT4WbHQOf/view )
